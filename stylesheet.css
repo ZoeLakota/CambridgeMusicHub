@@ -1,14 +1,24 @@
 header {
   text-align: center;
-
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.5);
   padding: 15px;
   margin: 0;
   color: #FFF;
   font-size: 24px;
   font-family: gungsuh;
 }
+.page-title {
+	font-size: 20px;
+}
+#nav-ul {
+	padding: 10px;
+}
+.nav-li {
+	display: inline;
+	padding: 10px;
+}
 body {
+	margin: 0;
 	background-image: url("./Graphics/homepage-background.jpg");
 	background-size: cover;
 	background-position: center;
@@ -18,7 +28,7 @@ body {
 div {
 	color: white;
 	border: 2px solid black;
-	border-radius: 10px;
+	border-radius: 12px;
 	position: relative;
 }
 .concerts-button {
@@ -60,5 +70,9 @@ div {
 .button-text {
 	position: absolute;
 	bottom: 0;
+	margin: 0;
 	color: #FFF;
+	background: -webkit-linear-gradient(bottom,rgba(0,0,0,1), rgba(0,0,0,0.4));
+	width: 95%;
+	padding: 15px 5px 15px 5px;
 }
