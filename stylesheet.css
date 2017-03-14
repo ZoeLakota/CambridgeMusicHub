@@ -17,6 +17,10 @@ header {
 	display: inline;
 	padding: 10px;
 }
+.nav-link {
+  color: #FFF;
+}
+
 body {
 	margin: 0;
 	background-image: url("./Graphics/homepage-background.jpg");
