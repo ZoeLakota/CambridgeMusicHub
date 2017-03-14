@@ -1,6 +1,5 @@
 header {
   text-align: center;
-
   background: rgba(0, 0, 0, 0.6);
   padding: 15px;
   margin: 0;
@@ -26,8 +25,10 @@ body {
 	background-image: url("./Graphics/homepage-background.jpg");
 	background-size: cover;
 	background-position: center;
+	object-position: center;
 	font-family: gungsuh;
 	font-size: 20px;
+	text-align: center;
 }
 div {
 	color: white;
@@ -84,3 +85,9 @@ div {
     color: white;
     border: 0;
 }
+
+iframe {
+	width: 60%;
+	border-spacing: 5%;
+}
+
