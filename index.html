@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <head>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  <script src=jquery-3.1.1.slim.min.js></script>
+	<script>
+  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-93153546-1', 'auto');
-  ga('send', 'pageview');
-</script>
+  	ga('create', 'UA-93153546-1', 'auto');
+  	ga('send', 'pageview');
+	</script>
+  <script type=text/javascript src="script.js"></script>
 	<title>Cambridge Music Hub</title>
 	<link href="stylesheet.css" rel="stylesheet" type="text/css">
 </head>
@@ -16,16 +18,16 @@
   <header>  
 	<h1>CAMBRIDGE MUSIC HUB</h1>
   </header>
-  <div class="concerts-button">
-    <span class="test"><h2 class="button-text">Concerts</h2></span>
+  <div id="button" class="concerts-button">
+    <h2 class="button-text">Concerts</h2>
   </div>
-  <div class="evensongs-button">
+  <div id="button" class="evensongs-button">
     <h2 class="button-text">Choral Evensongs</h2>
   </div>
-  <div class="ensembles-button">
+  <div id="button" class="ensembles-button">
     <h2 class="button-text">College Music Ensembles</h2>
   </div>
-  <div class="contact-button">
+  <div id="button" class="contact-button">
     <h2 class="button-text">Contact us</h2>
   </div>
 </body>
