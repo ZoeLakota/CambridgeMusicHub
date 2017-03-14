@@ -77,3 +77,10 @@ div {
 	width: 98%;
 	padding: 15px 5px 15px 5px;
 }
+.table-hover {
+table-layout: fixed;
+word-wrap: break-word;
+}
+</style>
+
+<td width="10%" /td>
