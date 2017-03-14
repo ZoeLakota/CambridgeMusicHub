@@ -6,9 +6,11 @@ $(document).ready(function() {
 		$(this).css('border-color', 'black')
 	})
 	$('input').mouseenter(function() {
-		$(this).css('border-color', 'white');
+		$(this).css('glowing-border', 'border: 2px solid #dadada',
+         border-radius: 7px');
 	});
 	$('input').mouseleave(function() {
-		$(this).css('border-color', 'black')
+		$(this).css('glowing-border', 'border: 0px',
+         'border-radius: 0px')
 	})
 });
