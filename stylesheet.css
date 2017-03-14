@@ -26,7 +26,7 @@ body {
 	background-image: url("./Graphics/homepage-background.jpg");
 	background-size: cover;
 	background-position: center;
-	font-family: gungsuh;
+	font-family: verdana;
 	font-size: 20px;
 }
 div {
@@ -80,7 +80,16 @@ div {
 	margin: 100px 300px 70px 300px;
 	padding: 15px;
 	text-align: center;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.4);
     color: white;
     border: 0;
 }
+
+tr {
+  width: 100%;
+  display: inline-table;
+  height:80px;  
+  color: #000;
+  background: rgba(0, 0, 100, 0.3);
+}      
+      

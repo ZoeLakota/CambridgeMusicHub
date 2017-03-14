@@ -23,6 +23,11 @@
 <div class="contact-form">
   Join our mailing list to stay up to date with music in Cambridge!<br /><br />
   <input type="email" placeholder="Your email">
-  <input type="submit">
+  <input class="btn btn-default" type="submit">
 </div>
+<script>
+  $("input").on("click", function() {
+    alert("Thanks for subscribing!")
+  });
+  </script>
 </body>
