@@ -1,6 +1,5 @@
 header {
   text-align: center;
-
   background: rgba(0, 0, 0, 0.6);
   padding: 15px;
   margin: 0;
@@ -28,6 +27,7 @@ body {
 	background-position: center;
 	font-family: verdana;
 	font-size: 20px;
+	text-align: center;
 }
 div {
 	color: white;
@@ -90,6 +90,34 @@ tr {
   display: inline-table;
   height:80px;  
   color: #000;
-  background: rgba(0, 0, 100, 0.3);
+  background: rgba(150, 150, 250, 0.4);
 }      
       
+iframe {
+	width: 60%;
+	border-spacing: 5%;
+}
+
+.fa {
+	margin: 10px 0px 0px 0px;
+    padding: 10px;
+    font-size: 30px;
+
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.9;
+    text-decoration: none;
+}
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}

@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <head>
+	<script src="jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="script2.js"></script>
 	<title>Cambridge Music Hub</title>
 	<link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +10,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -23,11 +27,14 @@
 <div class="contact-form">
   Join our mailing list to stay up to date with music in Cambridge!<br /><br />
   <input type="email" placeholder="Your email">
-  <input class="btn btn-default" type="submit">
+  <input class="btn btn-default" type="submit"><br />
+  <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
 </div>
 <script>
   $("input").on("click", function() {
     alert("Thanks for subscribing!")
   });
   </script>
+
 </body>
